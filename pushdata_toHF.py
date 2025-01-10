@@ -5,7 +5,7 @@ from datasets import Dataset, Features, Value, Image as HFImage
 from huggingface_hub import HfFolder
 
 # Hugging Face Token
-HF_TOKEN = "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"  # Replace with your Hugging Face token
+HF_TOKEN = "access token"  # Replace with your Hugging Face token
 HfFolder.save_token(HF_TOKEN)
 
 # Paths
